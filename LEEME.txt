@@ -1,0 +1,15 @@
+RULETA DE COLORES - Fabric 1.21.1
+
+1) Sube TODO el contenido de esta carpeta a tu repositorio de GitHub (arrastra las carpetas y archivos
+   en "Add file > Upload files"). La carpeta oculta ".github" tambien debe subirse; si no aparece,
+   crea el archivo a mano con "Add file > Create new file" llamado  .github/workflows/build.yml
+   y pega el contenido del archivo build.yml.
+2) Ve a la pestana "Actions": se compila solo (tarda 3-5 min). Cuando termine:
+   - Release (a la derecha del repo): descarga ruleta-colores-1.0.0.jar
+   - o dentro de la ejecucion: Artifacts > ruleta-colores-jar
+3) Pon el .jar en la carpeta mods junto con Fabric API (0.105.0+1.21.1 o mas nuevo).
+
+Uso en el juego:
+  /give @s ruleta_colores:ruleta     (tambien esta en la pestana Herramientas del creativo)
+  Click derecho = menu (color, titulo, texto) > GIRAR RULETA
+  Tecla K = ocultar la notificacion (cambiable en Controles)
